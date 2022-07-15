@@ -43,7 +43,7 @@
                 }
 
                 const newTask = {
-                    id:Math.floor(Math.random() * 10000),
+                    // id:Math.floor(Math.random() * 10000), // its now done by json automatically
                     text: this.text,
                     day: this.day,
                     reminder: this.reminder,
